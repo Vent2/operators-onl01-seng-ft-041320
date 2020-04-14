@@ -2,9 +2,9 @@ input_speed = 20
 
 def unsafe?(speed)
 if speed < 40 && spead > 60
-  "unsafe"
+  "true"
 else 
-  puts "safe"
+  puts "false"
 end
 
 def not_safe?(speed)
