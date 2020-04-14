@@ -1,7 +1,7 @@
-input_speed = 20
+
 
 def unsafe?(speed)
-if speed < 40 && spead > 60
+if speed < 40 && speed > 60
   "true"
 else 
   puts "false"
@@ -11,5 +11,5 @@ def not_safe?(speed)
 	speed < 40 && spead > 60 ? "not safe" : "safe"
 end
 
-unsafe?(input_speed)
+
 
